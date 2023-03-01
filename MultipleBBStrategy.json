@@ -1,0 +1,33 @@
+{
+  "strategy_name": "MultipleBBStrategy",
+  "params": {
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.01,
+      "trailing_stop_positive_offset": 0.02,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 17
+    },
+    "buy": {
+      "buy_rsi": 46,
+      "buy_rsi_informative": 50
+    },
+    "sell": {
+      "sell_rsi": 85
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.199,
+      "81": 0.071,
+      "249": 0.053,
+      "585": 0
+    },
+    "stoploss": {
+      "stoploss": -0.335
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-03-01 18:20:56.972729+00:00"
+}
